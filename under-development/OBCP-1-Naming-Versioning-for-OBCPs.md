@@ -27,14 +27,6 @@ under the Creative Commons Attribution 4.0 International Public License (CC BY
 4.0). All contributions made to this document have been made under the OASIS
 Contributor License Agreement (CLA). 
 
-The name "OASIS" is a trademark of OASIS Open, the owner and developer of this
-document, and should be used only to refer to the organization and its official
-outputs. OASIS welcomes reference to, and implementation and use of,
-specifications, while reserving the right to enforce its marks against
-misleading uses. Please see
-https://www.oasis-open.org/policiesguidelines/trademark for above guidance.
-
-
 ---
 
 # 1 Introduction
