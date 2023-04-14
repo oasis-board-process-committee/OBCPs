@@ -1,4 +1,4 @@
-![OASIS](../OASIS-Logo.png)
+![OASIS](./OASIS-Logo.png)
 ---
 
 # OASIS Best Current Practice Documents (OBCPs)
