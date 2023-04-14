@@ -16,13 +16,10 @@ currently being considered.
 
 ### Notices:
 
-Copyright © OASIS Open 2023. All Rights Reserved. Distributed under the terms of
-the OASIS IPR Policy,
-[https://www.oasis-open.org/policies-guidelines/ipr/], AS-IS, WITHOUT ANY
-IMPLIED OR EXPRESS WARRANTY; there is no warranty of MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE or NONINFRINGEMENT of the rights of others. For
-complete copyright information please see the Notices section in the
-appendix. 
+Copyright © OASIS Open 2023. All Rights Reserved. These documents are published
+under the Creative Commons Attribution 4.0 International Public License (CC BY
+4.0). All contributions made to these documents have been made under the OASIS
+Contributor License Agreement (CLA).
 
 
 
