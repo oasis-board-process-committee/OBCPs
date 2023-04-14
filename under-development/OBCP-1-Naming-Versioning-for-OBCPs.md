@@ -22,13 +22,18 @@ they appear in all capitals, as shown here.
 
 ### Notices:
 
-Copyright © OASIS Open 2023. All Rights Reserved. Distributed under the terms of
-the OASIS IPR Policy,
-[https://www.oasis-open.org/policies-guidelines/ipr/], AS-IS, WITHOUT ANY
-IMPLIED OR EXPRESS WARRANTY; there is no warranty of MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE or NONINFRINGEMENT of the rights of others. For
-complete copyright information please see the Notices section in the
-appendix. 
+Copyright © OASIS Open 2023. All Rights Reserved. This document is published
+under the Creative Commons Attribution 4.0 International Public License (CC BY
+4.0). All contributions made to this document have been made under the OASIS
+Contributor License Agreement (CLA). 
+
+The name "OASIS" is a trademark of OASIS Open, the owner and developer of this
+document, and should be used only to refer to the organization and its official
+outputs. OASIS welcomes reference to, and implementation and use of,
+specifications, while reserving the right to enforce its marks against
+misleading uses. Please see
+https://www.oasis-open.org/policiesguidelines/trademark for above guidance.
+
 
 ---
 
@@ -126,11 +131,3 @@ NONE
 | 01 | 2023-03-07 | Initial Release  |
 
 ---
-
-# Appendix C. Notices
-
-Copyright © OASIS Open 2023. All Rights Reserved.
-
-All capitalized terms in the following text have the meanings assigned to them in the OASIS Intellectual Property Rights Policy (the "OASIS IPR Policy"). The full Policy may be found at the OASIS website: [https://www.oasis-open.org/policies-guidelines/ipr/]
-
-This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published, and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this section are included on all such copies and derivative works. However, this document itself may not be modified in any way, including by removing the copyright notice or references to OASIS, except as needed for the purpose of developing any document or deliverable produced by an OASIS Technical 
