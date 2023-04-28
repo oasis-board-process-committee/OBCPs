@@ -3,7 +3,7 @@
 
 # OASIS Best Current Practices Documents
 
-## Documents under development
+## Documents published
 
 This directory contains documents that have been published and are considered
 ready for use by OASIS and anyone else that finds them useful. Any comments or
