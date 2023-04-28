@@ -114,7 +114,7 @@ Announcements:
 
 <list of any general announcements made>
 
-Approval of minutes
+Approval of minutes:
 
 <motion to approve previous minutes. it is acceptable to approve minutes pending corrections raised in the meeting> 
 
@@ -122,7 +122,7 @@ Approval of minutes
 
 <for each item on the agenda, list of topics raised, motions made and outcome, straw polls taken, etc.>
 
-Any other business
+Any other business:
 
 <document any other business raised and its disposition>
 
