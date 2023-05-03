@@ -132,7 +132,17 @@ Next meeting date and time
 
 ---
 
-# Appendix A. Revision History
+# Appendix A. Acknowledgements
+ 
+ This best practices document was originally authored by the members of the Technical Advisory Board. 
+ 
+* Chet Ensign, OASIS Open
+* Jacques Durand, Fujitsu
+* Patrick Durusau, Individual member
+* Ashok Malhotra, Individual member
+* Kevin Mangold, NIST
+ 
+# Appendix B. Revision History
 
 | Revision | Date | Changes Made  |
 |---|---|---|
