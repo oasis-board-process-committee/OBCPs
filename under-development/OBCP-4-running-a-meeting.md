@@ -29,17 +29,39 @@ This document defines guidelines for running an official meeting of an OASIS Tec
 
 # 2 Types of Meetings
 
-## 2.1 Official meetings
+## 2.1 Committee Meetings
 
-## 2.2 Ad-hoc meetings
+Each OASIS [Committee], including each [Technical Committee], [Project Governing Board] and Open Project [Technical Steering Committee], is required **(LINK?)** to periodically schedule and hold a [Committee Meeting] of the active [Members].  All [Voting] of the [Committee], including approval of any [Work Products] or election of [Chairs], should be made either at a [Committee Meeting], after establishing [Quorum], or through other approved means, such as an [Electronic Ballot].
 
-## 2.3 Side meetings
+[Committee]: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#committees
 
-# 3 Preparing For Official Meetings
+[Committee Meeting]: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#meetings
+
+[Members]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dMember
+
+[Chairs]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dChair
+
+[Quorum]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dQuorum
+
+[Voting]: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#voting
+
+[Work Products]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct
+
+[Electronic Ballot]: https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26/tc-process-16-september-2002/#mail
+
+[Technical Committee]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dTechnicalCommittee
+
+[Project Governing Board]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dPGB
+
+## 2.2 Ad-hoc/side meetings
+
+[Members] and/or non-Members of a [Committee] may gather and discuss topics of interest to the [Committee] outside the scope of a [Committee Meeting].  However, unless these gatherings satisfy the rules of a [Committee Meeting], including being scheduled and announced in advance as a [Committee Meeting], these "ad-hoc" or "side" meetings should not be considered an official [Committee Meeting]. 
+
+# 3 Preparing For Committee Meetings
 
 ## 3.1 Participants
 
-Who can be invited
+Each [Committee Meeting] is open to all [Eligible Persons], including [Members] and [Observers] of the [Committee] and other [Individual Members] of OASIS. All other persons should **SHALL NOT** be invited to or attend, participate or contribute to the [Committee Meeting].
 
 ## 3.2 Scheduling
 
@@ -52,7 +74,13 @@ https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-proces
 
 ## 3.3 Agenda
 
-# 4 Managing Official Meetings
+[Eligible Persons]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dEligiblePerson
+
+[Observers]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dObserver
+
+[Individual Members]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dIndividualMember
+
+# 4 Managing Committee Meetings
 
 # 4.1 Admitting Participants
 
@@ -70,7 +98,7 @@ When do you need to have quorum and what does that mean
 https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dQuorum
 https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#meetings
 
-# 5 Documenting Official Meetings
+# 5 Documenting Committee Meetings
 
 # 5.1 Minutes
 https://github.com/oasis-board-process-committee/OBCPs/blob/main/under-development/OBCP-2-meeting-minutes.md
@@ -96,6 +124,19 @@ Key Words for Use in RFCs to Indicate Requirement Levels, BCP 14, RFC 2119, Marc
 **[RFC8174]**
 
 Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words, BCP 14, RFC 8174, May 2017. [Online]. Available: https://www.rfc-editor.org/info/rfc8174
+
+**[DefinedTerms]**
+
+OASIS Defined Terms, 22 July 2020, [Online]. Available:
+https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/
+
+**[CommitteeProcess]**
+
+OASIS Committee Operations Process, 14 June 2022, [Online]. Available: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/
+
+**[TCProcess]**
+
+OASIS Technical Committee (TC) Process, 22 July 2020. [Online]. Available: https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26/
 
 ## A.2 Informative References
 
