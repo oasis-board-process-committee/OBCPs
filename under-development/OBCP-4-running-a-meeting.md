@@ -23,15 +23,19 @@ Copyright © OASIS Open 2023. All Rights Reserved. This document is published un
 
 # 1 Introduction
 
-This document defines guidelines for running an official meeting of an OASIS Technical Committee or Open Proect board or commitee.  It include suggested tasks for preparing for a meeting, guidance for managing situations that often arise during meetings, and for documenting the results of a meeting afterward.
+This document defines guidelines for running an official meeting of an [OASIS] [Commitee]].  It distinguishes a [Committee Meeting] from other meetings, include suggested tasks for preparing for a meeting, suggested guidance for managing situations that often arise during meetings, and requirements for documenting the results of a meeting afterward.
 
 ---
 
 # 2 Types of Meetings
 
+It is very important to distinguish whether meetings and other gatherings are official [Committee Meetings].
+
 ## 2.1 Committee Meetings
 
-Each OASIS [Committee], including each [Technical Committee], [Project Governing Board] and Open Project [Technical Steering Committee], is required **(LINK?)** to periodically schedule and hold a [Committee Meeting] of the active [Members].  All [Voting] of the [Committee], including approval of any [Work Products] or election of [Chairs], should be made either at a [Committee Meeting], after establishing [Quorum], or through other approved means, such as an [Electronic Ballot].
+Each [OASIS] [Committee], including each [Technical Committee], [Project Governing Board] and Open Project [Technical Steering Committee], is required **(LINK?)** to periodically schedule and hold a [Committee Meeting] of the active [Members].  All [Voting] of the [Committee], including approval of any [Work Products] or election of [Chairs], should be made either at a [Committee Meeting], after establishing [Quorum], or through other approved means, such as an [Electronic Ballot].
+
+[OASIS]: https://oasis-open.org
 
 [Committee]: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#committees
 
@@ -59,20 +63,27 @@ Each OASIS [Committee], including each [Technical Committee], [Project Governing
 
 # 3 Preparing For Committee Meetings
 
+It is important to determine, in advance of each [Committee Meeting] the participants, schedule and agenda for the meeting.
+
 ## 3.1 Participants
 
-Each [Committee Meeting] is open to all [Eligible Persons], including [Members] and [Observers] of the [Committee] and other [Individual Members] of OASIS. All other persons should **SHALL NOT** be invited to or attend, participate or contribute to the [Committee Meeting].
+Each [Committee Meeting] is open to all [Eligible Persons], including [Members] and [Observers] of the [Committee] and other [Individual Members] of [OASIS]. All other persons should **MUST NOT** be invited to or alloowed to attend, participate or contribute to the [Committee Meeting].
 
 ## 3.2 Scheduling
 
-How invites should be sent and published
-Make sure credentials for the meeting are not in the invite
-Scheduling a meeting and not putting the details in the calendar invite
-Sharing the meeting details separately or via a different means to ensure lack of abuse
+Each [Meeting] **MUST** be scheduled in advance with sufficient time to allow the maximum participation by [Members] of the [Committee].
 
-https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#meetings
+Calendar invitations to each [Committee Meeting] **MUST** be sent to all [Members] of the [Committee], and **SHOULD** also be sent to all [Observers] of the [Committee]. For instance, when a [Technical Committee] meeting is scheduled in the TC Workspace ("Kavi"), [Members] and [Observers] of the [Committee] are automatically notified by email.
+
+[Meeting]: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#meetings
 
 ## 3.3 Agenda
+
+Per [Robert's Rules] of Order, in advance of each [Committee Meeting], an agenda **SHOULD** be distributed to all invited persons, including [Members] and [Observers].
+
+The agenda **SHOULD** include a roster of [Members] and [Observers] including the current voting status of each participant.
+
+[Robert's Rules]: https://robertsrules.com/
 
 [Eligible Persons]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dEligiblePerson
 
@@ -82,30 +93,35 @@ https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-proces
 
 # 4 Managing Committee Meetings
 
+During a [Committee Meeting], it is important to admit particpants and establish quorum.
+
 # 4.1 Admitting Participants
 
-How do you maintain who can be there and who can make decisions etc.
-https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#voting
-https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26/#voting
-
-What about Members vs Observers
-How to deal with non-TC members that randomly show up
+To prevent abuse by non-TC members, either:
+1. The [Chairs], and/or their designee(s), **SHOULD** have a means to limit attendance to [Eligible Persons] (e.g. a waiting room), **OR**
+2. The credentials required to attend the [Committee Meeting] **SHOULD** be shared with all [Eligible Persons] only in a separate communication from the invitation itself
 
 # 4.2 Establishing Quorum
 
-When do you need to have quorum and what does that mean
+To make decisions at a [Committee Meeeting], a simple majority of the [Voting Members] **MUST** be present.  For a [Committee] that do not use voting rights, a simple majority of the [Members] is required.  For instance, when a [Technical Committee] meeting is scheduled in the TC Workspace ("Kavi") and [Members] and [Observers] register their attendance, whether the [Commitee Meeting] is quorate will be identifed in the workspace.
 
-https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dQuorum
-https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#meetings
+[Voting Members]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dVotingMember
 
 # 5 Documenting Committee Meetings
 
+After a [Committee Meeting], it is important to publish the minutes, and update the voting status of all [Members].
+
 # 5.1 Minutes
-https://github.com/oasis-board-process-committee/OBCPs/blob/main/under-development/OBCP-2-meeting-minutes.md
+
+Per [Robert's Rules], the primary duty of the [Secretary] in each [Committee] is to collect and distribute the draft [Minutes] of each [Committee Meeting].
+
+It is the duty of each [Member] to review the draft minutes and suggest any corrections prior to approval at the next [Committee Meeting]
+
+[Minutes]: https://github.com/oasis-board-process-committee/OBCPs/blob/main/under-development/OBCP-2-meeting-minutes.md
 
 # 5.2 Updating Member Status
 
-Official meetings that count for voting rights versus working meeting versus design team meetings
+In each [Committee] that uses voting rights and after each [Committee Meeting], it is the duty of the [Chairs] to review the attendance of each [Member] to determine whether they are [Voting Members] prior to the next [Committee Meeting].  Attendance or non-attendance at meetings other than a [Committee Meeting] do not affect the voting status.
 
 ---
 
