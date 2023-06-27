@@ -28,7 +28,7 @@ This OASIS Best Current Practices documents (OBCP) document provides guidelines 
 
 # 2 When to use git
 
-The git protocol and repositories (e.g. GitHub) are designed for distributed versioning of source code but they are also useful for the publication and version control of other documents.  Regardless, the git protocol and repositories may not enforce features critical to open specifications, including persistence and compliance with the [OASIS] [IPR Guidelines] and specific license requirements of the [Committee]. Therefore, according to the [Open Repository] policy, while an [OASIS] [Committee] **MAY** choose to create one or more repositoroes to suport document collaboation, a [Work Product] published on these repositories **MUST NOT** be considered the authoritative version of the [Work Product].
+The git protocol and repositories (e.g. GitHub) are designed for distributed versioning of source code but they are also useful for the publication and version control of other documents.  Regardless, the git protocol and repositories may not enforce features critical to open specifications, including persistence and compliance with the [OASIS] [IPR Guidelines] and specific license requirements of the [Committee]. Therefore, according to the [Open Repository] policy, while an [OASIS] [Committee] **MAY** choose to create one or more repositoroes to suport document collaboation, [Work Products] published on these repositories **MUST NOT** be considered the authoritative version of the [Work Product].  The authoritative source of all published [Work Products] **MUST** be the [OASIS Library].
 
 [OASIS]: https://oasis-open.org
 
@@ -37,9 +37,12 @@ Can this be used as the official publication process or can it contain an author
 
 [Committee]: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#committees
 
-[Work Product]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct
+[Work Products]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct
 
 [Open Repository]: https://www.oasis-open.org/policies-guidelines/open-repositories/#independentResources
+
+[OASIS Library]: https://docs.oasis-open.org
+
 
 # 3 Create a git repository
 
@@ -102,7 +105,7 @@ Each [Pull Request] **SHOULD** be accepted into the [Repository] by one of the [
 ## 4.3 Reporting/Tracking issues
 [GitHub] provides an [Issues] feature which is useful for reporting and tracking features and bugs.
 
-[Maintainers] **MAY** define [Labels] that [Contributors] **MAY** use to categorize issues.
+[Maintainers] **MAY** define [Labels] that [Contributors] **MAY** use to categorize [Issues].
 
 ## 4.4 Participating in Discussions
 [GitHub] also provides a [Discussions] feature which is useful for threaded conversations including questions and answers.
@@ -123,30 +126,34 @@ Each [Pull Request] **SHOULD** be accepted into the [Repository] by one of the [
 When using a [Repository] to collaborate on documents, it is important to consider document formats, document automation, and synchronization with other repositories.
 
 ## 5.1 Document formats
-https://datatracker.ietf.org/doc/html/rfc8874#name-document-formats
-Should we recommend Markdown or AsciiDocs?
-Github-Flavored Markdown
+While a git [Reposutory] can be used to store and collaborate on documents in virtually any format, documents formats that are text-based **SHOULD BE** prefered to binary formats.
+
+For instance, [GitHub] natively renders documents in a version of the pervasive Markdown format, which is text-based, called [GitHub]-Flavored Markdown ([GFM]).  Thus, [Maintainers] and [Contributors] **SHOULD** consider using [GFM] format for [Work Products] that will be accessible through [GitHub].
+
+[GFM]: https://github.github.com/gfm/
 
 ## 5.2 Document automation
-How could this fit into an automated publication process?
+**TODO**: How could this fit into an automated publication process?
 
 ## 5.3 Synchronizing with other repositories
-What about phases of use?
-- Like doing your work outside in say Google Docs and then copying it in every so often
-- Doing your work natively or day-2-day
-- or something in between
+To avoid conflicts, each [Committee] **SHIOULD** designate a single [Repository] as authoritative for each group of documents.  The authoritative source for all published [Work Products] **MUST** be the [OASIS Library].
 
+However, for various reasons such as the collaborative editing of documents in early phases in the development of [Work Products], a [Committee] **MAY** designate a secondary[Repository] for a group of documents.  In these cases, the [Committee] **SHOULD** clearly designate the secondary [Repository] as non-authoritative and determine a process schedule for synchronizing the non-authoritative [Repository] with the the authorititative [Repository].
 
 # 6 Administering a git repository
-
 Administering a repository includes organizing content and enforcing with document retention requirements.
 
 ## 6.1 Organizing content
-How to use we tagging and branching?
-Should you use Branching or Directories?
+The git protocol supports the creation and merging of [Branches], or independent versions of the same repository.  Each [Repository] **MUST** contain a principal branch, often called "master" or "main".  [Contributors] **SHOULD** create branches of the principal branch for their contributions and submit [Pull Requests] to merge their changes into the principal branch.
+
+In the absence of multiple branches, [Maintainers] **MAY** direct [Contributors] to submit their changes in separate directories in the princial branch before they are merged in.
 
 ## 6.2 Enforcing Document retention
-When can content or repos be deleted or archived? What are the rules around that?
+The [OASIS Library] **SHOULD BE** a permanent archive of all published [OASIS] [Work Products].
+
+Each [Committee] that creates any other [Repository] **SHOULD** designate a retention period for all content, including documents, stored in the [Repository].
+
+[Branches]: https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
 
 ---
 
