@@ -33,7 +33,7 @@ It is very important to distinguish whether meetings and other gatherings are of
 
 ## 2.1 Committee Meetings
 
-Each [OASIS] [Committee], including each [Technical Committee], [Project Governing Board] and Open Project [Technical Steering Committee], is **REQUIRED** **(LINK?)** to periodically schedule and hold a [Committee Meeting] of the active [Members].  All [Voting] of the [Committee], including [Resolutions[ (e.g. approval of any [Work Products]) or election of [Chairs], **SHOULD** be made either at a [Committee Meeting], after establishing [Quorum], or through other approved means, such as an [Electronic Ballot].
+Each [OASIS] [Committee], including each [Technical Committee], [Project Governing Board] and Open Project [Technical Steering Committee], is **REQUIRED** **(LINK?)** to periodically schedule and hold a [Committee Meeting] of the active [Members].  All [Voting] of the [Committee], including [Resolutions] (e.g. approval of any [Work Products]) or election of [Chairs], **SHOULD** be made either at a [Committee Meeting], after establishing [Quorum], or through other approved means, such as an [Electronic Ballot].
 
 [OASIS]: https://oasis-open.org
 
@@ -103,23 +103,19 @@ During a [Committee Meeting], it is important to admit particpants and establish
 
 To prevent abuse by non-TC members, either:
 1. The [Chairs], and/or their designee(s), **SHOULD** have a means to limit attendance to [Eligible Persons] (e.g. a waiting room), **OR**
-2. The credentials required to attend the [Committee Meeting] **SHOULD** be shared with all [Eligible Persons] only in a separate communication from the invitation itself
+2. The credentials required to attend the [Committee Meeting] **SHOULD** be shared with all [Eligible Persons] only in a separate communication from the invitation itself.
 
 ## 4.2 Establishing Quorum
 
-[Voting] on [Resolutions] at a [Committee Meeeting], **REQUIRES** a simple majority of the [Voting Members] be present.  For a [Committee] that do not use voting rights, a simple majority of the [Members] is **REQUIRED**.  
+[Voting] on [Resolutions] at a [Committee Meeting] **REQUIRES** a [Quorum] be present. For a [Committee] that tracks [Voting Members], a [Quorum] is a simple majority of the [Voting Members].  Otherwise, a [Quorum] is a simple majority of the [Members].
 
-For instance, when a [Technical Committee] meeting is scheduled in the TC Workspace ("Kavi") and [Members] and [Observers] register their attendance, whether the [Commitee Meeting] is quorate will be identifed in the workspace.
+For instance, when a [Technical Committee] meeting is scheduled in the TC Workspace ("Kavi") and [Members] and [Observers] register their attendance, whether the attendance at the [Committee Meeting] satisfies the [Quorum] will be identifed in the workspace.
 
 If a [Quorum] is not present at a [Committee Meeting], the [Committee] **MAY** still meet and discuss the agenda but any [Voting] **MUST NOT** occur.
 
 [Voting Members]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dVotingMember
 
-## 4.3 Approving Previous Minutes
-
-Per [Robert's Rules], correction and approval of any unapproved [Minutes] from a previous [Committee Meeting] **SHOULD** be one of the first items on the agenda at each [Committee Meeting].
-
-## 4.4 Adopting The Agenda
+## 4.3 Adopting The Agenda
 
 Per [Robert's Rules], unless the [Committee] uses the [Standard Order of Business], the [Committee] **SHOULD** approve the agenda at the start of each [Committee Meeting].
 
@@ -127,19 +123,23 @@ Per [Robert's Rules], unless the [Committee] uses the [Standard Order of Busines
 
 [Standard Order of Business]: https://en.wikipedia.org/wiki/Agenda_(meeting)#Standard_Order_of_Business
 
+## 4.4 Approving Previous Minutes
+
+Per [Robert's Rules], correction and approval of any unapproved [Minutes] from a previous [Committee Meeting] **SHOULD** be one of the first items on the agenda at each [Committee Meeting].
+
 # 5 Documenting Committee Meetings
 
 After a [Committee Meeting], it is important to publish the minutes, and update the voting status of all [Members].
 
 ## 5.1 Distrbuting Draft Minutes
 
-Per [Robert's Rules], the [Chairs] or Secretaries, if they exist, in each [Committee] **MUST** to record and distribute the [Resolutions] of the [Committee], including draft [Minutes] following each [Committee Meeting].
+Per [Robert's Rules], the [Chairs] or Secretaries, if they exist, in each [Committee] **MUST** distribute a record of the discussions and [Resolutions] of the [Committee], including draft [Minutes] following each [Committee Meeting].
 
 The [Members] **SHOULD** review the draft [Minutes] and suggest any corrections prior to approval at the next [Committee Meeting].
 
-## 5.2 Updating Member Statuses
+## 5.2 Updating Voting Members
 
-In each [Committee] that uses voting rights and after each [Committee Meeting], the [Chairs] **SHOULD** review the attendance of each [Member] to determine whether they are [Voting Members] prior to the next [Committee Meeting].  Attendance or non-attendance at meetings other than a [Committee Meeting] **MUST NOT** affect the voting statuses of the [Members].
+In each [Committee] that tracks [Voting Members] and after each [Committee Meeting], the [Chairs] **SHOULD** review the attendance of each [Member] to determine whether they are [Voting Members] prior to the next [Committee Meeting].  Attendance or non-attendance at meetings other than a [Committee Meeting] **MUST NOT** affect the status of [Members] as [Voting Members].
 
 ---
 
