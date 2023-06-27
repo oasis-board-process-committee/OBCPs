@@ -61,12 +61,13 @@ Each [Repository] **MUST** have a one or more [Licenses] approved the [Committe]
 
 # 3.4 Choosing maintainers
 
-https://www.oasis-open.org/policies-guidelines/open-repositories/#repositoryManagement
-Maintainers: https://www.oasis-open.org/maintainers-guide/
-https://datatracker.ietf.org/doc/html/rfc8874#name-editors-and-contributors
-Probably need at least two admins from OASIS staff
-Chairs and secretaries should have admin
-Editors may have admin but should have admin to their repos
+Each [Repository] **MUST** have one or more [Maintainers] desginated by the [Committee] to have administrative-level privileges and organize the content of the [Repository].
+
+The list of [Maintainers] **SHOULD** include the [Chairs] and any Secretaries of the [Committee] that created the [Repository], if they exist, as well as at least two staff members of [OASIS].
+
+Document Editors **MUST** and other [Contributors] **MAY** have privileges to edit specific documents stored in a [Repository] without necessarily needing to be [Maintainers].
+
+[Maintainers]: https://www.oasis-open.org/maintainers-guide/
 
 [Repository]: https://www.oasis-open.org/open-repositories/#repositoryDefinition
 
@@ -78,28 +79,48 @@ Editors may have admin but should have admin to their repos
 
 [Licenses]: https://www.oasis-open.org/licenses/
 
+[Contributors]: https://www.oasis-open.org/policies-guidelines/ipr/#def-contributor
+
+[Chairs]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dChair
+
 # 4 Contributing to a git repository
 
-Before contributing a repository, it is important to first complete Contributor License Agreements (CLAs) and be familar with submitting pull requests and reporting/tracking issues.
+Before contributing a repository, it is important to first complete Contributor License Agreements (CLAs) and be familiar with submitting pull requests and reporting/tracking issues.
 
 ## 4.1 Contributor License Agreements (CLAs)
-https://www.oasis-open.org/policies-guidelines/open-repositories/#licenseTools
+Per the [RepoGuidelines], all [Contributors] to a [Repository] **MUST** complete and sign a Contributor License Agreement ([CLA]) before submitting a contribution.
 
-## 4.2 Submitting pull requests
-https://datatracker.ietf.org/doc/html/rfc8874#name-pull-requests
-What are the best practices for using comments on pull requests in Github?
+To ensure compliance, [OASIS] provides various [License Tools] to the [Committees].
+
+## 4.2 Submitting Pull Requests
+Each contribution to a [Repository] **SHOULD BE** submitted as a [Github] [Pull Request].
+
+Each [Pull Request] **SHOULD** include a succint comment describing the scope of the contributed changes.
+
+Each [Pull Request] **SHOULD** be accepted into the [Repository] by one of the [Maintainers] other than the [Contributors].
 
 ## 4.3 Reporting/Tracking issues
-https://datatracker.ietf.org/doc/html/rfc8874#name-issue-tracker
-https://datatracker.ietf.org/doc/html/rfc8874#name-issue-labeling-schemes
-How to use labels for issue tracking?
+[GitHub] provides an [Issues] feature which is useful for reporting and tracking features and bugs.
+
+[Maintainers] **MAY** define [Labels] that [Contributors] **MAY** use to categorize issues.
 
 ## 4.4 Participating in Discussions
+[GitHub] also provides a [Discussions] feature which is useful for threaded conversations including questions and answers.
 
+[CLA]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dCLA
+
+[License Tools]: https://www.oasis-open.org/policies-guidelines/open-repositories/#licenseTools
+
+[Pull Request]: https://docs.github.com/en/pull-requests
+
+[Issues]: https://github.com/features/issues
+
+[Labels]: https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels
+
+[Discussions]: https://docs.github.com/en/discussions
 
 # 5 Collaborating on documents
-
-When using a repository to collaborate on documents, it is important to consider document formats, document automation, and synchronization with other repositories.
+When using a [Repository] to collaborate on documents, it is important to consider document formats, document automation, and synchronization with other repositories.
 
 ## 5.1 Document formats
 https://datatracker.ietf.org/doc/html/rfc8874#name-document-formats
