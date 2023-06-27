@@ -23,32 +23,44 @@ Copyright © OASIS Open 2023. All Rights Reserved. This document is published un
 
 # 1 Introduction
 
-This OASIS Best Current Practices documents (OBCP) document provides guidelines for using the git protocol to collaobrate on documents in an OASIS Technical Committee (TC) or Open Project (OP) board or committee.
+This OASIS Best Current Practices documents (OBCP) document provides guidelines for when to use the git protocol and repositories (e.g. GitHub) to collaobrate on documents in an OASIS Technical Committee (TC) or Open Project (OP) board or committee, how to create a repository, how to contribute to a repository, and how to administer a repository.
 
 
 # 2 When to use git
 
+The git protocol and repositories (e.g. GitHub) are designed for distributed versioning of source code but they are also useful for the publication and version control of other documents.  Regardless, the git protocol and repositories may not enforce features critical to open specifications, including persistence and compliance with the [OASIS] [IPR Guidelines] and specific license requirements of the [Committee]. Therefore, according to the [Open Repository] policy, while an [OASIS] [Committee] **MAY** choose to create one or more repositoroes to suport document collaboation, a [Work Product] published on these repositories **MUST NOT** be considered the authoritative version of the [Work Product].
+
+[OASIS]: https://oasis-open.org
+
+[IPR Guidelines]: https://www.oasis-open.org/policies-guidelines/ipr/
 Can this be used as the official publication process or can it contain an authoritative version?
 
-Not for specifications
-https://www.oasis-open.org/policies-guidelines/open-repositories/#independentResources
+[Committee]: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/#committees
 
-Should every group have its own Organization or just a repo (like what we do today)?
-- Doing this would allow Github.io pages
+[Work Product]: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/#dWorkProduct
 
-https://datatracker.ietf.org/doc/html/rfc8874#name-what-to-use-github-for
+[Open Repository]: https://www.oasis-open.org/policies-guidelines/open-repositories/#independentResources
 
 # 3 Create a git repository
 
-# 3.1 Defining a purpose
-https://www.oasis-open.org/policies-guidelines/open-repositories/#purposeStatement
-https://datatracker.ietf.org/doc/html/rfc8874#name-repositories
+Each [Repository] is created by a specific [Committee]. 
 
-# 3.2 Choosing a license
-https://www.oasis-open.org/policies-guidelines/open-repositories/
-https://www.oasis-open.org/licenses/
+When creating a [Repository], it is important to consider creating an organization, defining a purpose, choosing a license and choosing maintainers.
 
-# 3.3 Choosing maintainers
+# 3.1 Consider joining an Organization
+
+Some [Repository] hosts (e.g. [GitHub]) support shared accounts enabling [Organizations] to collaborate across multiple related [Repositories]. Personal accounts can be invited to either join [Organizations] as a member or owner.  [Organizations] enable consolidated management of permissions and features across multiple [Repositories].  Some hosts also allow [Repositories] and [Organizations] to provide a website. (e.g., [Pages])
+
+# 3.2 Defining a purpose
+
+Each [Repository] **SHOULD** have a [Purpose Statement] defining the intended scope and contents of the [Repository] approved by the [Committee] that created the [Repository].  
+
+# 3.3 Choosing a license
+
+Each [Repository] **MUST** have a one or more [Licenses] approved the [Committe] that created the [Repository].
+
+# 3.4 Choosing maintainers
+
 https://www.oasis-open.org/policies-guidelines/open-repositories/#repositoryManagement
 Maintainers: https://www.oasis-open.org/maintainers-guide/
 https://datatracker.ietf.org/doc/html/rfc8874#name-editors-and-contributors
@@ -56,7 +68,19 @@ Probably need at least two admins from OASIS staff
 Chairs and secretaries should have admin
 Editors may have admin but should have admin to their repos
 
+[Repository]: https://www.oasis-open.org/open-repositories/#repositoryDefinition
+
+[GitHub]: https://github.com/
+
+[Organizations]: https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations
+
+[Pages]: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+
+[Licenses]: https://www.oasis-open.org/licenses/
+
 # 4 Contributing to a git repository
+
+Before contributing a repository, it is important to first complete Contributor License Agreements (CLAs) and be familar with submitting pull requests and reporting/tracking issues.
 
 ## 4.1 Contributor License Agreements (CLAs)
 https://www.oasis-open.org/policies-guidelines/open-repositories/#licenseTools
@@ -72,7 +96,10 @@ How to use labels for issue tracking?
 
 ## 4.4 Participating in Discussions
 
+
 # 5 Collaborating on documents
+
+When using a repository to collaborate on documents, it is important to consider document formats, document automation, and synchronization with other repositories.
 
 ## 5.1 Document formats
 https://datatracker.ietf.org/doc/html/rfc8874#name-document-formats
@@ -88,13 +115,16 @@ What about phases of use?
 - Doing your work natively or day-2-day
 - or something in between
 
+
 # 6 Administering a git repository
+
+Administering a repository includes organizing content and enforcing with document retention requirements.
 
 ## 6.1 Organizing content
 How to use we tagging and branching?
 Should you use Branching or Directories?
 
-## 6.2 Document retention
+## 6.2 Enforcing Document retention
 When can content or repos be deleted or archived? What are the rules around that?
 
 ---
@@ -107,20 +137,37 @@ This appendix contains the normative and informative references that are used in
 
 The following documents are referenced in such a way that some or all of their content constitutes requirements of this document.
 
-**[RFC8874]**
+**[RFC2119]**
 
-Working Group GitHub Usage Guidance, RFC 8874, August 2020. [Online]. Available: https://datatracker.ietf.org/doc/html/rfc8874
+Key Words for Use in RFCs to Indicate Requirement Levels, BCP 14, RFC 2119, March 1997. [Online]. Available: https://www.rfc-editor.org/info/rfc2119
 
-**[Repo Guidelines]**
+**[RFC8174]**
+
+Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words, BCP 14, RFC 8174, May 2017. [Online]. Available: https://www.rfc-editor.org/info/rfc8174
+
+**[DefinedTerms]**
+
+OASIS Defined Terms, 22 July 2020, [Online]. Available: https://www.oasis-open.org/policies-guidelines/oasis-defined-terms-2018-05-22/
+
+**[CommitteeProcess]**
+
+OASIS Committee Operations Process, 14 June 2022, [Online]. Available: https://www.oasis-open.org/policies-guidelines/oasis-committee-operations-process/
+
+**[TCProcess]**
+
+OASIS Technical Committee (TC) Process, 22 July 2020. [Online]. Available: https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26/
+
+**[RepoGuidelines]**
 
 Open Repository Guidelines and Procedures, July 2022. [Online]. Available: https://www.oasis-open.org/policies-guidelines/open-repositories/
-
 
 ## A.2 Informative References
 
 The following referenced documents are not required for the application of this document but may assist the reader with regard to a particular subject area.
 
-NONE
+**[RFC8874]**
+
+Working Group GitHub Usage Guidelines, August 2020. [Online]. Available: https://datatracker.ietf.org/doc/html/rfc8874
 
 ---
 
