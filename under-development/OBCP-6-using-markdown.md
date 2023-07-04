@@ -88,6 +88,22 @@ redlining (blame) capabilities it is advised that they routinely copy the
 current version into GitHub, this could be done on a weekly or monthly basis
 depending on how much the document changes.
 
+## 2.1 Issues With Using Markdown in GitHub
+
+GitHub was designed for source code tracking and not document writing. As such,
+just as in comments in source code, simple and tiny changes in a sentence can
+reflect that the entire paragraph has changed, so reviewers of Pull Requests
+should be mindful of this.
+
+When using GitHub natively to work on documents in Markdown, then groups should
+consider tiny commits and pull requests which is often not the norm for source
+code. Becuase unlike in Google Docs or other tools, a pull request that
+contains changes throughout the document prevents editors from accepting part
+but not all of the pull request. 
+
+This also means that during a high level of document change and churn, native
+GitHub may not be the best choice. 
+
 # 3 Markdown Syntax
 
 The following resources should help groups understand the Markdown syntax.
