@@ -59,7 +59,7 @@ OBCP:#, Long Name, Version:YEAR.MONTH
 
 **Example**
 
-OBCP:1, Naming and Versioning Requirements for OBCPs, Version:2023.03
+OBCP:1, Naming and Versioning Requirements for OBCPs, Version:2023.09
 
 ## 2.3 Referencing an OBCP
 
@@ -70,9 +70,9 @@ OBCP:#:YEAR.MONTH
 
 **Examples**
 
-OBCP:1, Naming and Versioning Requirements for OBCPs, Version:2023.03
+OBCP:1, Naming and Versioning Requirements for OBCPs, Version:2023.09
 
-OBCP:1:2023.03
+OBCP:1:2023.09
 
 ---
 
