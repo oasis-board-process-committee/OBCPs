@@ -76,9 +76,7 @@ OBCP:1:2023.03
 
 ---
 
-# Annex A
-
-References
+# Annex A References
 
 (This annex forms an integral part of this Specification.)
 
@@ -98,9 +96,7 @@ NONE
 
 ---
 
-# Appendix 1
-
-Revision History
+# Appendix 1 Revision History
 
 (This appendix does not form an integral part of this Specification.)
 
