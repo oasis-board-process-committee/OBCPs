@@ -13,14 +13,6 @@
 This document contains information about the Markdown markup language and how it
 can be used for work products at OASIS.
 
-### Key words:
-
-The key words "**MUST**", "**MUST NOT**", "**REQUIRED**", "**SHALL**", "**SHALL
-NOT**", "**SHOULD**", "**SHOULD NOT**", "**RECOMMENDED**", "**NOT
-RECOMMENDED**", "**MAY**", and "**OPTIONAL**" in this document are to be
-interpreted as described in BCP 14 [RFC2119] [RFC8174] when, and only when,
-they appear in all capitals, as shown here.
-
 ### Notices:
 
 Copyright © OASIS Open 2023. All Rights Reserved. This document is published
@@ -41,7 +33,7 @@ easy to understand syntax. Documents written in Markdown format can easily be
 read with or without a tool that can render it. This is often not possible with
 other markup languages like HTML.
 
-## 1.3 Markdown Formatting
+## 1.3 Markdown Formatting Limitations
 
 While the formatting options in Markdown are limited, the core set supports the
 basic formatting needs for organizing and rapidly developing documents. Some
@@ -140,11 +132,7 @@ guarantee their long term validity.
 The following documents are referenced in such a way that some or all of their
 content constitutes requirements of this document.
 
-**[RFC2119]**
-Key Words for Use in RFCs to Indicate Requirement Levels, BCP 14, RFC 2119, March 1997. [Online]. Available: https://www.rfc-editor.org/info/rfc2119
-
-**[RFC8174]**
-Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words, BCP 14, RFC 8174, May 2017. [Online]. Available: https://www.rfc-editor.org/info/rfc8174
+NONE
 
 ## A.2 Informative References
 

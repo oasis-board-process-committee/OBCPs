@@ -1,24 +1,17 @@
 ![OASIS](../OASIS-Logo.png)
+
 ---
 
 # OASIS Best Current Practices Document
 
-## Naming and Versioning Requirements for OBCPs
+## Naming and Versioning of OBCPs
 
-### Version: 2023.03
+### Version: 2023.09
 
 ### Abstract:
 
-This document defines the requirements for the naming and versioning of OASIS
-Best Current Practices (OBCP) documents.
-
-### Key words:
-
-The key words "**MUST**", "**MUST NOT**", "**REQUIRED**", "**SHALL**", "**SHALL
-NOT**", "**SHOULD**", "**SHOULD NOT**", "**RECOMMENDED**", "**NOT
-RECOMMENDED**", "**MAY**", and "**OPTIONAL**" in this document are to be
-interpreted as described in BCP 14 [RFC2119] [RFC8174] when, and only when,
-they appear in all capitals, as shown here.
+This document defines the naming and versioning of OASIS Best Current Practices
+(OBCP) documents.
 
 ### Notices:
 
@@ -52,15 +45,15 @@ While OBCPs may be deprecated or replaced over time, they represent the current
 best practices for doing work at OASIS.
 
 To make it easier and more recognizable when referencing an OBCP, all
-OBCPs **MUST** use a 4 digit year plus two digit month as their version
-(e.g., 2023.03). This verson **MUST** represent the calendar month in which the
+OBCPs use a 4 digit year plus two digit month as their version
+(e.g., 2023.03). This verson represent the calendar month in which the
 OBCP was released. 
 
 ## 2.2 Naming
 
 To assist with the referencing of OBCPs, all OBCPs will be issued a number,
 which is an incrementing integer from a central repository maintained by OASIS.
-The full published name and version of each OBCP **MUST** be as follows: 
+The full published name and version of each OBCP will be as follows: 
 
 OBCP:#, Long Name, Version:YEAR.MONTH
 
@@ -70,7 +63,7 @@ OBCP:1, Naming and Versioning Requirements for OBCPs, Version:2023.03
 
 ## 2.3 Referencing an OBCP
 
-When referencing a published OBCP document an author or editor **MUST** use
+When referencing a published OBCP document an author or editor can use
 either the full OBCP name, or the following shortened syntax: 
 
 OBCP:#:YEAR.MONTH
@@ -83,29 +76,19 @@ OBCP:1:2023.03
 
 ---
 
-# 3 Conformance
+# Annex A
 
-All OASIS Best Current Practices documents **MUST** use the naming and versioning requirements defined in this document.
+References
 
-All OASIS organizations that reference an OBCP **MUST** use the referencing format defined in this document.
+(This annex forms an integral part of this Specification.)
 
----
-
-# Appendix A. References
-
-This appendix contains the normative and informative references that are used in this document. Normative references are specific (identified by date of publication and/or edition number or version number) and Informative references are either specific or non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the reference document (including any amendments) applies. While any hyperlinks included in this appendix were valid at the time of publication, OASIS cannot guarantee their long term validity.
+This annex contains the normative and informative references that are used in this document. Normative references are specific (identified by date of publication and/or edition number or version number) and Informative references are either specific or non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the reference document (including any amendments) applies. While any hyperlinks included in this annex were valid at the time of publication, OASIS cannot guarantee their long term validity.
 
 ## A.1 Normative References
 
 The following documents are referenced in such a way that some or all of their content constitutes requirements of this document.
 
-**[RFC2119]**
-
-Key Words for Use in RFCs to Indicate Requirement Levels, BCP 14, RFC 2119, March 1997. [Online]. Available: https://www.rfc-editor.org/info/rfc2119
-
-**[RFC8174]**
-
-Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words, BCP 14, RFC 8174, May 2017. [Online]. Available: https://www.rfc-editor.org/info/rfc8174
+NONE
 
 ## A.2 Informative References
 
@@ -115,7 +98,11 @@ NONE
 
 ---
 
-# Appendix B. Revision History
+# Appendix 1
+
+Revision History
+
+(This appendix does not form an integral part of this Specification.)
 
 | Revision | Date | Changes Made  |
 |---|---|---|
