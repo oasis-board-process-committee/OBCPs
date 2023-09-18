@@ -10,8 +10,8 @@
 
 ### Abstract:
 
-This document contains information about the Markdown markup language and how it
-can be used for work products at OASIS.
+This document contains information about the [Markdown] markup language and how it
+can be used for work products at [OASIS].
 
 ### Notices:
 
@@ -23,73 +23,73 @@ under the Creative Commons Attribution 4.0 International Public License (CC BY
 
 # 1 Introduction
 
-This document contains information about the Markdown markup language and how it
-can be used for work products at OASIS.
+This document contains information about the [Markdown] markup language and how it
+can be used for work products at [OASIS].
 
 ## 1.2 What is Markdown?
 
-Markdown is a lightweight plaintext markup language that has a very simple and
-easy to understand syntax. Documents written in Markdown format can easily be
+[Markdown] is a lightweight plaintext markup language that has a very simple and
+easy to understand syntax. Documents written in [Markdown] format can easily be
 read with or without a tool that can render it. This is often not possible with
-other markup languages like HTML.
+other markup languages like [HTML].
 
 ## 1.3 Markdown Formatting Limitations
 
-While the formatting options in Markdown are limited, the core set supports the
+While the formatting options in [Markdown] are limited, the core set supports the
 basic formatting needs for organizing and rapidly developing documents. Some
 concepts like the coloring of text or advanced table options are not supported
-by Markdown.
+by [Markdown].
 
 ## 1.4 Flavors of Markdown
 
-There are currently several versions or flavors of the Markdown syntax, some of
+There are currently several versions or flavors of the [Markdown] syntax, some of
 these versions support additional markup features that enable additional
 formatting options. However, these versions are not supported and rendered by
-all tools. It is therefore recommended that groups at OASIS adopt the Markdown
-syntax supported by Github as it is the most widely used and supported
+all tools. It is therefore recommended that groups at [OASIS] adopt the [Markdown]
+syntax supported by [GitHub] (aka [GitHub-Flavored Markdown])as it is the most widely used and supported
 version.
 
 ## 1.5 Why Markdown?
 
-Markdown enables rapid development and formatting in any editor or word
-processor (even Word or Google Docs). The output is always stored in plaintext
+[Markdown] enables rapid development and formatting in any editor or word
+processor (even [Microsoft Word] or [Google Docs]). The output is always stored in plaintext
 and can be viewed or rendered in many different tools. This also means that
-documents written in Markdown can at any point be checked into a source control
-system like Github.
+documents written in [Markdown] can at any point be checked into a source control
+system like [GitHub].
 
-Using Markdown may also limit the need for groups at OASIS to produce multiple
-versions for publication. Currently groups will often produce a Word version,
-an HTML version, and a PDF version of their documents. If a group uses Markdown
-they would be able to produce just the Markdown version and possibly a PDF
+Using [Markdown] may also limit the need for groups at [OASIS] to produce multiple
+versions for publication. Currently groups will often produce a [Microsoft Word] version,
+an [HTML] version, and a [PDF] version of their documents. If a group uses [Markdown]
+they would be able to produce just the [Markdown] version and possibly a [PDF]
 version.
 
 # 2 Using Markdown
 
-Groups at OASIS may write their documents in Markdown via any tool or process
-that they like. Some may use native Markdown tools or text editors, some may
-use Google Docs, and others may choose to use GitHub natively as if the
-document was source code. Using an external text editor or Google docs does not
-prevent groups from also using GitHub.
+Groups at [OASIS] may write their documents in [Markdown] via any tool or process
+that they like. Some may use native [Markdown] tools or text editors, some may
+use Google Docs, and others may choose to use [GitHub] natively as if the
+document was source code. Using an external text editor or [Google Docs] does not
+prevent groups from also using [GitHub].
 
-For example, a group may write their specification in Markdown format using
+For example, a group may write their specification in [Markdown] format using
 Google Docs to simplify the comment and suggestion process. Then at some
 defined interval or at the end of the document creation process, the plaintext
-markdown can be pushed to Github. If groups do choose to use Markdown with an
-external editor, but want to make use of GitHub’s change tracking and
+markdown can be pushed to [GitHub]. If groups do choose to use [Markdown] with an
+external editor, but want to make use of [GitHub]’s change tracking and
 redlining (blame) capabilities it is advised that they routinely copy the
 current version into GitHub, this could be done on a weekly or monthly basis
 depending on how much the document changes.
 
 ## 2.1 Issues With Using Markdown in GitHub
 
-GitHub was designed for source code tracking and not document writing. As such,
+[GitHub] was designed for source code tracking and not document writing. As such,
 just as in comments in source code, simple and tiny changes in a sentence can
 reflect that the entire paragraph has changed, so reviewers of Pull Requests
 should be mindful of this.
 
-When using GitHub natively to work on documents in Markdown, then groups should
+When using [GitHub] natively to work on documents in [Markdown], groups should
 consider tiny commits and pull requests which is often not the norm for source
-code. Becuase unlike in Google Docs or other tools, a pull request that
+code. Because unlike in [Google Docs] or other tools, a pull request that
 contains changes throughout the document prevents editors from accepting part
 but not all of the pull request. 
 
@@ -98,7 +98,7 @@ GitHub may not be the best choice.
 
 # 3 Markdown Syntax
 
-The following resources should help groups understand the Markdown syntax.
+The following resources should help groups understand the [Markdown] syntax.
 
 - [https://www.markdownguide.org/getting-started/](Getting Started)
 - [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](Basic Syntax)
@@ -108,7 +108,7 @@ The following resources should help groups understand the Markdown syntax.
 # 4 OASIS Template Considerations
 
  - There should be a single blank line before and after headings and formatting blocks
- - Please see the OASIS Markdown Template for ideas and suggestions
+ - Please see the [OASIS Markdown Template] for ideas and suggestions
   
 # 5 Online Markdown Tools
 

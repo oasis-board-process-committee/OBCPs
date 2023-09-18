@@ -23,12 +23,12 @@ Copyright © OASIS Open 2023. All Rights Reserved. This document is published un
 
 # 1 Introduction
 
-This OASIS Best Current Practices documents (OBCP) document provides guidelines for when to use the git protocol and repositories (e.g. GitHub) to collaobrate on documents in an OASIS Technical Committee (TC) or Open Project (OP) board or committee, how to create a repository, how to contribute to a repository, and how to administer a repository.
+This OASIS Best Current Practices documents (OBCP) document provides guidelines for when to use the git protocol and repositories (e.g. GitHub) to collaborate on documents in an OASIS Technical Committee (TC) or Open Project (OP) board or committee, how to create a repository, how to contribute to a repository, and how to administer a repository.
 
 
 # 2 When to use git
 
-The git protocol and repositories (e.g. GitHub) are designed for distributed versioning of source code but they are also useful for the publication and version control of other documents.  Regardless, the git protocol and repositories may not enforce features critical to open specifications, including persistence and compliance with the [OASIS] [IPR Guidelines] and specific license requirements of the [Committee]. Therefore, according to the [Open Repository] policy, while an [OASIS] [Committee] **MAY** choose to create one or more repositoroes to suport document collaboation, [Work Products] published on these repositories **MUST NOT** be considered the authoritative version of the [Work Product].  The authoritative source of all published [Work Products] **MUST** be the [OASIS Library].
+The git protocol and repositories (e.g. GitHub) are designed for distributed versioning of source code but they are also useful for the publication and version control of other documents.  Regardless, the git protocol and repositories may not enforce features critical to open specifications, including persistence and compliance with the [OASIS] [IPR Guidelines] and specific license requirements of the [Committee]. Therefore, according to the [Open Repository] policy, while an [OASIS] [Committee] **MAY** choose to create one or more repositories to support document collaboration, [Work Products] published on these repositories **MUST NOT** be considered the authoritative version of the [Work Product].  The authoritative source of all published [Work Products] **MUST** be the [OASIS Library].
 
 [OASIS]: https://oasis-open.org
 
@@ -60,11 +60,11 @@ Each [Repository] **SHOULD** have a [Purpose Statement] defining the intended sc
 
 # 3.3 Choosing a license
 
-Each [Repository] **MUST** have a one or more [Licenses] approved the [Committe] that created the [Repository].
+Each [Repository] **MUST** have a one or more [Licenses] approved the [Committee] that created the [Repository].
 
 # 3.4 Choosing maintainers
 
-Each [Repository] **MUST** have one or more [Maintainers] desginated by the [Committee] to have administrative-level privileges and organize the content of the [Repository].
+Each [Repository] **MUST** have one or more [Maintainers] designated by the [Committee] to have administrative-level privileges and organize the content of the [Repository].
 
 The list of [Maintainers] **SHOULD** include the [Chairs] and any Secretaries of the [Committee] that created the [Repository], if they exist, as well as at least two staff members of [OASIS].
 
@@ -96,9 +96,9 @@ Per the [RepoGuidelines], all [Contributors] to a [Repository] **MUST** complete
 To ensure compliance, [OASIS] provides various [License Tools] to the [Committees].
 
 ## 4.2 Submitting Pull Requests
-Each contribution to a [Repository] **SHOULD BE** submitted as a [Github] [Pull Request].
+Each contribution to a [Repository] **SHOULD BE** submitted as a [GitHub] [Pull Request].
 
-Each [Pull Request] **SHOULD** include a succint comment describing the scope of the contributed changes.
+Each [Pull Request] **SHOULD** include a succinct comment describing the scope of the contributed changes.
 
 Each [Pull Request] **SHOULD** be accepted into the [Repository] by one of the [Maintainers] other than the [Contributors].
 
@@ -126,7 +126,7 @@ Each [Pull Request] **SHOULD** be accepted into the [Repository] by one of the [
 When using a [Repository] to collaborate on documents, it is important to consider document formats, document automation, and synchronization with other repositories.
 
 ## 5.1 Document formats
-While a git [Reposutory] can be used to store and collaborate on documents in virtually any format, documents formats that are text-based **SHOULD BE** prefered to binary formats.
+While a git [Repository] can be used to store and collaborate on documents in virtually any format, documents formats that are text-based **SHOULD BE** preferred to binary formats.
 
 For instance, [GitHub] natively renders documents in a version of the pervasive Markdown format, which is text-based, called [GitHub]-Flavored Markdown ([GFM]).  Thus, [Maintainers] and [Contributors] **SHOULD** consider using [GFM] format for [Work Products] that will be accessible through [GitHub].
 
@@ -138,7 +138,7 @@ For instance, [GitHub] natively renders documents in a version of the pervasive 
 ## 5.3 Synchronizing with other repositories
 To avoid conflicts, each [Committee] **SHIOULD** designate a single [Repository] as authoritative for each group of documents.  The authoritative source for all published [Work Products] **MUST** be the [OASIS Library].
 
-However, for various reasons such as the collaborative editing of documents in early phases in the development of [Work Products], a [Committee] **MAY** designate a secondary[Repository] for a group of documents.  In these cases, the [Committee] **SHOULD** clearly designate the secondary [Repository] as non-authoritative and determine a process schedule for synchronizing the non-authoritative [Repository] with the the authorititative [Repository].
+However, for various reasons such as the collaborative editing of documents in early phases in the development of [Work Products], a [Committee] **MAY** designate a secondary[Repository] for a group of documents.  In these cases, the [Committee] **SHOULD** clearly designate the secondary [Repository] as non-authoritative and determine a process schedule for synchronizing the non-authoritative [Repository] with the the authoritative [Repository].
 
 # 6 Administering a git repository
 Administering a repository includes organizing content and enforcing with document retention requirements.
