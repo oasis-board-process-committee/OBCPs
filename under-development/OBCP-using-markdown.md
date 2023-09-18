@@ -52,12 +52,12 @@ There are currently several versions or flavors of the [Markdown] syntax, some o
 these versions support additional markup features that enable additional
 formatting options. However, these versions are not supported and rendered by
 all tools. It is therefore recommended that groups at [OASIS] adopt the [Markdown]
-syntax supported by [GitHub] (aka [GitHubFlavoredMarkdown]) as it is the most widely used and supported
+syntax supported by [GitHub] (aka [GitHub Flavored Markdown]) as it is the most widely used and supported
 version.
 
 [GitHub]: https://github.com
 
-[GitHubFlavoredMarkdown]: https://github.github.com/gfm/
+[GitHub Flavored Markdown]: https://github.github.com/gfm/
 
 ## 1.5 Why Markdown?
 
@@ -93,7 +93,7 @@ defined interval or at the end of the document creation process, the plaintext
 markdown can be pushed to [GitHub]. If groups do choose to use [Markdown] with an
 external editor, but want to make use of [GitHub]’s change tracking and
 redlining (blame) capabilities it is advised that they routinely copy the
-current version into GitHub, this could be done on a weekly or monthly basis
+current version into [GitHub], this could be done on a weekly or monthly basis
 depending on how much the document changes.
 
 ## 2.1 Issues With Using Markdown in GitHub
@@ -110,7 +110,7 @@ contains changes throughout the document prevents editors from accepting part
 but not all of the pull request. 
 
 This also means that during a high level of document change and churn, native
-GitHub may not be the best choice. 
+[GitHub] may not be the best choice. 
 
 # 3 Markdown Syntax
 
@@ -119,7 +119,7 @@ The following resources should help groups understand the [Markdown] syntax.
 - [https://www.markdownguide.org/getting-started/](Getting Started)
 - [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](Basic Syntax)
 - [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](Markdown Cheatsheet)
-- [https://github.github.com/gfm/](GitHub Markdown Specification)
+- [https://github.github.com/gfm/](GitHub Flavored Markdown Specification)
 
 # 4 OASIS Template Considerations
 
