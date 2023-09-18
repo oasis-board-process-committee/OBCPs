@@ -75,16 +75,20 @@ version.
 
 [PDF]: https://pdfa.org/
 
+[Google Docs]: https://www.google.com/docs/about/
+
+[Microsoft Word]: https://en.wikipedia.org/wiki/Microsoft_Word
+
 # 2 Using Markdown
 
 Groups at [OASIS] may write their documents in [Markdown] via any tool or process
 that they like. Some may use native [Markdown] tools or text editors, some may
-use Google Docs, and others may choose to use [GitHub] natively as if the
+use [Google Docs], and others may choose to use [GitHub] natively as if the
 document was source code. Using an external text editor or [Google Docs] does not
 prevent groups from also using [GitHub].
 
 For example, a group may write their specification in [Markdown] format using
-Google Docs to simplify the comment and suggestion process. Then at some
+[Google Docs] to simplify the comment and suggestion process. Then at some
 defined interval or at the end of the document creation process, the plaintext
 markdown can be pushed to [GitHub]. If groups do choose to use [Markdown] with an
 external editor, but want to make use of [GitHub]’s change tracking and
