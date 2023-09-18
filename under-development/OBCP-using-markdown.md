@@ -13,6 +13,10 @@
 This document contains information about the [Markdown] markup language and how it
 can be used for work products at [OASIS].
 
+[OASIS]: https://oasis-open.org
+
+[Markdown]: https://en.wikipedia.org/wiki/Markdown
+
 ### Notices:
 
 Copyright © OASIS Open 2023. All Rights Reserved. This document is published
@@ -33,6 +37,8 @@ easy to understand syntax. Documents written in [Markdown] format can easily be
 read with or without a tool that can render it. This is often not possible with
 other markup languages like [HTML].
 
+[HTML]: https://www.w3.org/html/
+
 ## 1.3 Markdown Formatting Limitations
 
 While the formatting options in [Markdown] are limited, the core set supports the
@@ -46,8 +52,12 @@ There are currently several versions or flavors of the [Markdown] syntax, some o
 these versions support additional markup features that enable additional
 formatting options. However, these versions are not supported and rendered by
 all tools. It is therefore recommended that groups at [OASIS] adopt the [Markdown]
-syntax supported by [GitHub] (aka [GitHub-Flavored Markdown])as it is the most widely used and supported
+syntax supported by [GitHub] (aka [GitHubFlavoredMarkdown]) as it is the most widely used and supported
 version.
+
+[GitHub]: https://github.com
+
+[GitHubFlavoredMarkdown]: https://github.github.com/gfm/
 
 ## 1.5 Why Markdown?
 
@@ -62,6 +72,8 @@ versions for publication. Currently groups will often produce a [Microsoft Word]
 an [HTML] version, and a [PDF] version of their documents. If a group uses [Markdown]
 they would be able to produce just the [Markdown] version and possibly a [PDF]
 version.
+
+[PDF]: https://pdfa.org/
 
 # 2 Using Markdown
 
